@@ -18,7 +18,9 @@ class DataProcess(object):
 
     """
     def __init__(self):
-        self.input_file = "input_file"
+        self.input_file = "../../../kaggle_data/toxic_comment_classify/data/unzip_data/train.csv"
+        self.output_dir = "../../../kaggle_data/toxic_comment_classify/data/train_data/"
+        self.output_filename = "train_output_file.csv"
 
 
     def run(self):
